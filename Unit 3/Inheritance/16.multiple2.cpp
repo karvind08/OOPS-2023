@@ -18,7 +18,6 @@ public:
 };
 class Child : public Base1, public Base2
 {
-public:
 };
 int main()
 {
