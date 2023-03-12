@@ -30,5 +30,6 @@ int main()
 {
     Child C1;
     C1.display();
+    C1.Base1::display();
     return (0);
 }
