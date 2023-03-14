@@ -22,8 +22,7 @@ public:
     void f2(int x)
     {
         cout << "f2 from class B" << endl;
-        cout << "\n"
-             << x << endl;
+        cout << x << endl;
     }
 };
 int main()
