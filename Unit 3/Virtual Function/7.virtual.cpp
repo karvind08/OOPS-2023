@@ -50,9 +50,9 @@ int main()
     p->fun_2();
     p->fun_3();
     p->fun_4();
-    // p->fun_4(6);
-    //  Early binding but this function call is illegal (produces error) because pointer
-    //  is of base type and function is of derived class p->fun_4(5);
+    // p->fun_4(5);
+    //   Early binding but this function call is illegal (produces error) because pointer
+    //   is of base type and function is of derived class p->fun_4(5);
 
     return 0;
 }
