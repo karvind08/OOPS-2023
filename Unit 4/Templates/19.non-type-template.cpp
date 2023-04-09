@@ -3,10 +3,10 @@ using namespace std;
 template <class T, int n>
 class Example
 {
-    T a[5];
+    T a[10];
 
 public:
-    Example(T b[5])
+    Example(T b[])
     {
         for (int i = 0; i < n; i++)
         {
@@ -26,7 +26,7 @@ public:
 int main()
 {
     int ar[] = {1, 2, 3, 4, 5};
-    Example<int, 5> E1(ar);
+    Example<int, 4> E1(ar);
     E1.sum();
     return (0);
 }
