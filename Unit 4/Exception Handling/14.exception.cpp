@@ -12,10 +12,16 @@ int main()
         if (i == 1)
             throw 1;
         if (i == 2)
-            throw 2;
+            throw "Hello";
         if (i == 3)
             throw 5.4;
+        // if (i == 4)
+        //     throw('a');
     }
+    // catch (string s)
+    // {
+    //     cout << "This is string exception" << endl;
+    // }
     catch (int e)
     {
         cout << "I am in catch: " << e << endl;
