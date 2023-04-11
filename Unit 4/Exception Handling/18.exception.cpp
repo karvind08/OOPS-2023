@@ -21,7 +21,7 @@ public:
         }
         catch (int e)
         {
-            cout << "division is not possible" << endl;
+            cout << "Division is not possible" << endl;
         }
     }
 };
