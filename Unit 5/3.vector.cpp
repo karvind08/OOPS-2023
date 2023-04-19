@@ -7,5 +7,11 @@ int main()
     vector<int>::iterator i;
     i = V.begin();
     cout << *i << " ";
+    i++;
+    cout << *i << " ";
+    i++;
+    cout << *i << " ";
+    i++;
+    cout << *i << " ";
     return (0);
 }
