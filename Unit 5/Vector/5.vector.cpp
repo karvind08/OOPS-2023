@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    vector<vector<int>> v{{1, 0, 1}, {0, 1, 3}, {1, 0, 1}};
+    vector<vector<int>> v = {{1, 0, 1}, {0, 1, 3}, {1, 0, 1}};
 
     // Iterator for the 2-D vector
     vector<vector<int>>::iterator i1;
